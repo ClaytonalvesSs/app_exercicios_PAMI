@@ -3,7 +3,7 @@
 
 Para iniciar nosso passo a passo no Git, primeiro iremos abrir o Git bash diretamente na pasta desejada.
 
-O primeiro comando que utilizamos foi o '$ git init', ou seja, ele irá inicializar o Git .
+O primeiro comando que utilizamos foi o ' $ git init ', ou seja, ele irá inicializar o Git .
 ![image](https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/127456560/3616d65d-4ad1-4459-b10c-28250cdf0cec)
 
 Precisamos vincular o GitHub com o Git e para isso é necessário configurar para informar seu usuário e o email utilizado no GitHub (Caso não esteja configurado) para realizar essa configuração utilizamos o '$ git config --global user.name “nome_do_usuário”' e '$ git config --global user.email “email_usuario”'. Como o nosso já estava configurado fomos para o próximo passo.
