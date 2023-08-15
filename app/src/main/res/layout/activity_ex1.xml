@@ -8,10 +8,10 @@
     tools:context=".Activity_ex1">
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="306dp"
-        android:layout_height="648dp"
-        android:background="@color/white"
+        android:id="@+id/imageView4"
+        android:layout_width="324dp"
+        android:layout_height="630dp"
+        android:contentDescription="@string/fundo_de_interface"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,53 +19,63 @@
         app:srcCompat="@android:drawable/screen_background_light" />
 
     <EditText
-        android:id="@+id/editTextText2"
-        android:layout_width="273dp"
-        android:layout_height="61dp"
+        android:id="@+id/ET_valora"
+        android:layout_width="289dp"
+        android:layout_height="65dp"
         android:ems="10"
-        android:hint="Digite um numero"
+        android:hint="@string/digite_um_numero"
         android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.114" />
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toTopOf="@+id/ET_valorb"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.254"
+        android:autofillHints="" />
 
     <EditText
-        android:id="@+id/editTextText3"
-        android:layout_width="273dp"
-        android:layout_height="69dp"
+        android:id="@+id/ET_valorb"
+        android:layout_width="291dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="112dp"
         android:ems="10"
-        android:hint="Digite outro numero"
+        android:hint="@string/digite_outro_numero"
         android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.278" />
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toTopOf="@+id/btn_resultado"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.37"
+        android:autofillHints="" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="134dp"
-        android:layout_height="74dp"
-        android:backgroundTint="@color/material_dynamic_primary40"
-        android:text="Resultado"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText3"
-        app:layout_constraintVertical_bias="0.552" />
+        android:id="@+id/btn_resultado"
+        android:layout_width="147dp"
+        android:layout_height="72dp"
+        android:text="@string/resultado"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/ET_resultado"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.91" />
 
     <EditText
-        android:id="@+id/editTextText"
-        android:layout_width="271dp"
-        android:layout_height="68dp"
+        android:id="@+id/ET_resultado"
+        android:layout_width="291dp"
+        android:layout_height="57dp"
+        android:autofillHints=""
         android:ems="10"
-        android:hint="Resultado aqui"
+        android:hint="@string/resultado_aqui"
         android:inputType="text"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.595" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,10 +8,10 @@
     tools:context=".Activity_ex4">
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="306dp"
-        android:layout_height="648dp"
-        android:background="@color/white"
+        android:id="@+id/imageView"
+        android:layout_width="310dp"
+        android:layout_height="632dp"
+        android:contentDescription="@string/fundo_de_interface_2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,41 +19,46 @@
         app:srcCompat="@android:drawable/screen_background_light" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/ET_hrentrada"
         android:layout_width="273dp"
-        android:layout_height="61dp"
+        android:layout_height="55dp"
         android:ems="10"
-        android:hint="Horario de Entrada"
+        android:hint="@string/horario_de_entrada"
         android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.114" />
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toTopOf="@+id/btn_horario_saida"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.452"
+        android:autofillHints="" />
 
     <EditText
-        android:id="@+id/editTextText3"
-        android:layout_width="273dp"
-        android:layout_height="69dp"
+        android:id="@+id/ET_hrsaida"
+        android:layout_width="268dp"
+        android:layout_height="57dp"
         android:ems="10"
-        android:hint="Horario de Saida"
+        android:hint="@string/horario_de_saida"
         android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.278" />
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        android:autofillHints="" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="134dp"
-        android:layout_height="74dp"
-        android:backgroundTint="@color/material_dynamic_primary40"
-        android:text="Apresentar horario"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText3"
-        app:layout_constraintVertical_bias="0.244" />
+        android:id="@+id/btn_horario_saida"
+        android:layout_width="182dp"
+        android:layout_height="87dp"
+        android:backgroundTint="@color/material_dynamic_primary30"
+        android:text="@string/mostrar_horario_saida"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/ET_hrsaida"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.69" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

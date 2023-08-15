@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">app_exercicios</string>
+    <string name="horario_de_entrada">Horario de entrada</string>
+    <string name="horario_de_saida">Horario de saida</string>
+    <string name="mostrar_horario_saida">Mostrar horario saida</string>
+    <string name="fundo_de_interface_2">fundo de interface 2</string>
+    <string name="resultado_aqui">Resultado aqui</string>
+    <string name="digite_um_numero">Digite um numero</string>
+    <string name="digite_outro_numero">Digite outro numero</string>
+    <string name="resultado">Resultado</string>
+    <string name="fundo_de_interface">fundo de interface</string>
+
 </resources>
