@@ -22,31 +22,31 @@
         android:id="@+id/ET_hrentrada"
         android:layout_width="273dp"
         android:layout_height="55dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/horario_de_entrada"
         android:inputType="text"
-        android:textColorHint="#757575"
+        android:textColorHint="#000000"
         app:layout_constraintBottom_toTopOf="@+id/btn_horario_saida"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintHorizontal_bias="0.432"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.452"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.452" />
 
     <EditText
         android:id="@+id/ET_hrsaida"
         android:layout_width="268dp"
         android:layout_height="57dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/horario_de_saida"
         android:inputType="text"
-        android:textColorHint="#757575"
+        android:textColorHint="#000000"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/imageView"
-        android:autofillHints="" />
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
 
     <Button
         android:id="@+id/btn_horario_saida"
@@ -54,6 +54,7 @@
         android:layout_height="87dp"
         android:backgroundTint="@color/material_dynamic_primary30"
         android:text="@string/mostrar_horario_saida"
+        android:textColor="#EDEAEA"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/ET_hrsaida"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
