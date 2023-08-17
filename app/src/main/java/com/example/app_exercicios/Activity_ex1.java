@@ -6,11 +6,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+    /*declaração das Views*/
 public class Activity_ex1 extends AppCompatActivity {
     private EditText ET_valora;
     private EditText ET_valorb;
     private EditText ET_resultado;
 
+
+    /*"chamando" as Views pelo Id*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,7 +24,9 @@ public class Activity_ex1 extends AppCompatActivity {
 
     }
 
-    /*Criando método para ver se é múltiplo*/
+    /*Criação do método para ver se é múltiplo,
+     com seu nome "vmultiplo",ele foi chamado através da propriedade "OnClick" do botão,
+     assim, podendo realizar o resultado que foi criado pelo método*/
 
     public void vmultiplo(View view){
         int valora = Integer.parseInt(ET_valora.getText().toString());
