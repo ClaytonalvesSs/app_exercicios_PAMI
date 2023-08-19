@@ -59,7 +59,7 @@
         android:layout_width="182dp"
         android:layout_height="87dp"
         android:backgroundTint="@color/material_dynamic_primary30"
-        android:onClick="horaCalculo"
+        android:onClick="horacalculo"
         android:text="@string/mostrar_horario_saida"
         android:textColor="#EDEAEA"
         android:textSize="20sp"
