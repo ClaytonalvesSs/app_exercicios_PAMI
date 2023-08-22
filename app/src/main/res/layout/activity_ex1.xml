@@ -88,4 +88,14 @@
         app:layout_constraintStart_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
         app:layout_constraintVertical_bias="0.595" />
+
+    <VideoView
+        android:id="@+id/video_view"
+        android:layout_width="190dp"
+        android:layout_height="141dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/ET_resultado" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

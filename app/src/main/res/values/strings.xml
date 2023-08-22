@@ -10,5 +10,6 @@
     <string name="resultado">Resultado</string>
     <string name="fundo_de_interface">fundo de interface</string>
     <string name="horario_saida_txt">O horário de saída foi:</string>
+    <string name="txt_horario_atual">Horário em tempo real:</string>
 
 </resources>

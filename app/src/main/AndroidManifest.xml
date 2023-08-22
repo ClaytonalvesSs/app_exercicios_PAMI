@@ -16,9 +16,6 @@
             android:name=".Activity_ex1"
             android:exported="false" />
         <activity
-            android:name=".Activity_ex6"
-            android:exported="false" />
-        <activity
             android:name=".Activity_ex4"
             android:exported="false" />
         <activity

@@ -1,10 +1,11 @@
 package com.example.app_exercicios;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+
+import androidx.appcompat.app.AppCompatActivity;
 
     /*declaração das Views*/
 public class Activity_ex1 extends AppCompatActivity {
@@ -28,6 +29,7 @@ public class Activity_ex1 extends AppCompatActivity {
      com seu nome "vmultiplo",ele foi chamado através da propriedade "OnClick" do botão,
      assim, podendo realizar o resultado que foi criado pelo método*/
 
+    @SuppressLint("SetTextI18n")
     public void vmultiplo(View view){
         int valora = Integer.parseInt(ET_valora.getText().toString());
         int valorb = Integer.parseInt(ET_valorb.getText().toString());
