@@ -11,5 +11,6 @@
     <string name="fundo_de_interface">fundo de interface</string>
     <string name="horario_saida_txt">O horário de saída foi:</string>
     <string name="txt_horario_atual">Horário em tempo real:</string>
+    <string name="txt_video">Para saber o que são números múltiplos, assista o vídeo:</string>
 
 </resources>
