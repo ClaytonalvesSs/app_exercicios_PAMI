@@ -47,7 +47,7 @@ O APP contém um total de três acyvities, uma é a principal, outra sobre o exe
 
 ![image](https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/128047894/a8ef9eeb-d81f-43bf-be1d-55213c2eaa3b)
 
-Todas as suas activities possuem um design simples, no caso da Main, ela possui 4 elementos, uma TextView, indicando o tema do app, uma ImageView para dar uma complementada a mais no design e dois ImageButtons, no qual cada um redireciona para a activity representada pelo número do exercicio que escolhemos (no caso o 1 e o 4).
+Todas as suas activities possuem um design simples, no caso da Main, ela possui 4 elementos, uma TextView, indicando o tema do app, uma ImageView para dar uma complementada a mais no design e dois ImageButtons, no qual cada um redireciona para a activity representada pelo número do exercício que escolhemos (no caso o 1 e o 4).
 
 <h3>Main Java</h3>
 
@@ -103,4 +103,4 @@ Aqui no Java do exercício 4 é quase o mesmo esquema do exercício 1, porém um
 <h2>Vídeo da execução do APP</h2>
 Assista o vídeo da execução do aplicativo logo abaixo:
 
-
+https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/128047894/e219e63f-5439-440e-a0cf-b2998df97328
