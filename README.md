@@ -44,11 +44,15 @@ E aqui está o resultado:
 O APP contém um total de três acyvities, uma é a principal, outra sobre o exercício 1, e mais uma sobre o exercício 4.
 
 <h3>Main</h3>
+
 ![image](https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/128047894/a8ef9eeb-d81f-43bf-be1d-55213c2eaa3b)
+
 Todas as suas activities possuem um design simples, no caso da Main, ela possui 4 elementos, uma TextView, indicando o tema do app, uma ImageView para dar uma complementada a mais no design e dois ImageButtons, no qual cada um redireciona para a activity representada pelo número do exercicio que escolhemos (no caso o 1 e o 4).
 
 <h3>Main Java</h3>
+
 ![image](https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/128047894/191649f2-34ea-42f4-b6b7-4844537b4709)
+
 Aqui temos no total dois metodos, no qual cada um tem uma intent explicita que redireciona para a tela de cada exercício.
 
 
@@ -64,6 +68,7 @@ Ela possui diversos elementos como: 3 EditText, no caso 2 servindo para o usuár
 ![image](https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/128047894/f38c9aa8-94f1-4271-8796-afe7a5052004)
 
 Agora sobre o código, começamos primeiro declarando as views, e logo depois "chamando" elas pela ID.
+
 
 
 ![image](https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/128047894/4de1e65b-6a1e-4893-bcbb-1239b57d04c8)
