@@ -74,14 +74,14 @@ Agora sobre o código, começamos primeiro declarando as views, e logo depois "c
 ![image](https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/128047894/4de1e65b-6a1e-4893-bcbb-1239b57d04c8)
 ![image](https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/128047894/8c1c1b6e-0340-47a1-a04f-78a9375bd99c)
 
-Nessas duas imagens acima, são os codigos para a programação da exibição do video em si, começando desde a definição do caminho em que o video se encontra, configuração da Uri do video, criação dos controladores do video e seu instanciamento, a utilização dos controladores dentro da VideoView (colocando eles abaixo do video para o usuário conrolá-lo), exibição dos controladores abaixo da VideoView e eles também irão segir o comportamento da VideoView, e por fim, a definição da URI na VideoView.
+Nessas duas imagens acima, são os codigos para a programação da exibição do vídeo em si, começando desde a definição do caminho em que o vídeo se encontra, configuração da Uri do video, criação dos controladores do video e seu instanciamento, a utilização dos controladores dentro da VideoView (colocando eles abaixo do video para o usuário conrolá-lo), exibição dos controladores abaixo da VideoView e eles também irão segir o comportamento da VideoView, e por fim, a definição da URI na VideoView.
 
 ![image](https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/128047894/9f01f254-bc65-43f6-bd9d-85daf9d1a528)
 
-Agora, sobre a criação do método para ver se o número informado é multiplo ou não, criamos ele com o nome de "vmultiplo", no qual ele sera chamado através desse nome na propriedade OnClick do botão. Inicialmente criamos duas váriaveis, a valora e a valorb, que irão receber os números digitados pelo usuário e a variável resultado, como o próprio nome diz, irá apresentar o resultado dizendo se é múltiplo ou não. Após isso, criamos uma condição que ira verificar o resto de uma divisão, caso o resto seja 0, é considerado múltiplo, e caso o resto seja maior que 0, não é considerado múltiplo.
+Agora, sobre a criação do método para ver se o número informado é múltiplo ou não, criamos ele com o nome de "vmultiplo", no qual ele sera chamado através desse nome na propriedade OnClick do botão. Inicialmente criamos duas váriaveis, a valora e o valorb, que irão receber os números digitados pelo usuário e a variável resultado, como o próprio nome diz, irá apresentar o resultado dizendo se é múltiplo ou não. Após isso, criamos uma condição que ira verificar o resto de uma divisão, caso o resto seja 0, é considerado múltiplo, e caso o resto seja maior que 0, não é considerado múltiplo.
 
 
-<h3>Acivity Exercicio 4</h3>
+<h3>Activity Exercicio 4</h3>
 
 ![image](https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/128047894/edfdee26-36ce-4e58-abbd-9f4be4fa7ee2)
 
