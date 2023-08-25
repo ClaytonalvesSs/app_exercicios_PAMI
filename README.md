@@ -53,33 +53,46 @@ Aqui temos no total dois metodos, no qual cada um tem uma intent explicita que r
 
 
 <H3>Activity Exercicio 1</H3>
+
 ![image](https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/128047894/3cf7b36c-ce40-4178-9631-16a76614b1f7)
+
 Ela possui diversos elementos como: 3 EditText, no caso 2 servindo para o usuário digitar os números e uma para apresentar o resultado que será gerado após o usuário clicar no botão, uma TextView indicando o usuário para que assista o video abaixo, no qual usamos uma VideoView.
 
 <h3>Java do Exercicio 1</h3>
+
 ![image](https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/128047894/54b7cd0b-8c43-4993-9082-e11ff0955b5c)
 ![image](https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/128047894/f38c9aa8-94f1-4271-8796-afe7a5052004)
+
 Agora sobre o código, começamos primeiro declarando as views, e logo depois "chamando" elas pela ID.
+
 
 ![image](https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/128047894/4de1e65b-6a1e-4893-bcbb-1239b57d04c8)
 ![image](https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/128047894/8c1c1b6e-0340-47a1-a04f-78a9375bd99c)
+
 Nessas duas imagens acima, são os codigos para a programação da exibição do video em si, começando desde a definição do caminho em que o video se encontra, configuração da Uri do video, criação dos controladores do video e seu instanciamento, a utilização dos controladores dentro da VideoView (colocando eles abaixo do video para o usuário conrolá-lo), exibição dos controladores abaixo da VideoView e eles também irão segir o comportamento da VideoView, e por fim, a definição da URI na VideoView.
 
 ![image](https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/128047894/9f01f254-bc65-43f6-bd9d-85daf9d1a528)
+
 Agora, sobre a criação do método para ver se o número informado é multiplo ou não, criamos ele com o nome de "vmultiplo", no qual ele sera chamado através desse nome na propriedade OnClick do botão. Inicialmente criamos duas váriaveis, a valora e a valorb, que irão receber os números digitados pelo usuário e a variável resultado, como o próprio nome diz, irá apresentar o resultado dizendo se é múltiplo ou não. Após isso, criamos uma condição que ira verificar o resto de uma divisão, caso o resto seja 0, é considerado múltiplo, e caso o resto seja maior que 0, não é considerado múltiplo.
 
 
 <h3>Acivity Exercicio 4</h3>
+
 ![image](https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/128047894/edfdee26-36ce-4e58-abbd-9f4be4fa7ee2)
+
 alguns dos elementos utilizados foram: Uma EditText para o usuáario informar o horário de entrada, um botão para calcular e que fará o retorno do horario de saída numa TextView, além disso, temos outra TextView que indicará logo abaixo uma textClock, que retorna o horário atual.
 
 <h3>Exercicio 4 XML</h3>
+
 ![image](https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/128047894/b5e5bef5-c4f1-4b48-a1b3-b7d4ca5d60b6)
+
 No caso do TextClock, ele é elaborado pelo XML, podendo usar códigos para deixar em formato de 12 horas ou 24 horas.
 
 <h3>Exercicio 4 Java</h3>
+
 ![image](https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/128047894/f75d54cb-3527-4336-8868-e020e793f8c3)
 ![image](https://github.com/ClaytonalvesSs/app_exercicios_PAMI/assets/128047894/86a98f3a-234a-49cf-bd6d-94f5b16b38b3)
+
 Aqui no Java do exercício 4 é quase o mesmo esquema do exercício 1, porém um pouco mais simples, começando pela declaração das views, depois, chamando elas pelo ID e por fim, criando o método HoraCalculo que irá ser chamado na propriedade OnClick do botão, dentro desse método, criamos tres variáveis, a entrada, que será o horário informado pelo usuário, a saida que é o cálculo caso o horario de entrada informado pelo usuário seja menor que 18 e a saida2 que fará o cálculo caso o horário de entrada seja maior ou igual a 18.
 
 <h2>Vídeo da execução do APP</h2>
